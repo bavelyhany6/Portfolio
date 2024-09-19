@@ -19,7 +19,9 @@ $(window).on("load", function() {
 $(function () {
 	'use strict';
 
-
+	setTimeout(() => {
+		document.querySelector('.loader-background').style.display = 'none';
+	}, 3000);
 	/*
 		Vars
 	*/
